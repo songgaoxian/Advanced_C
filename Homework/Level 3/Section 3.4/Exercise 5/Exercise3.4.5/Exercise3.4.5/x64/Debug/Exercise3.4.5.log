@@ -1,0 +1,18 @@
+﻿  Exercise3.4.5.cpp
+c:\users\samsung\desktop\homework\level 3\section 3.4\exercise 5\exercise3.4.5\exercise3.4.5\exercise3.4.5.cpp(18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(30): note: 参见对正在编译的函数 模板 实例化“_Ty std::_Accumulate<double*,_Ty,double(__cdecl *)(double,double)>(_InIt,_InIt,_Ty,_Fn2)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=double *,
+              _Fn2=double (__cdecl *)(double,double)
+          ]
+  c:\users\samsung\desktop\homework\level 3\section 3.4\exercise 5\exercise3.4.5\exercise3.4.5\exercise3.4.5.cpp(99): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Array_iterator<double,10000>,int,double(__cdecl *)(double,double)>(_InIt,_InIt,_Ty,_Fn2)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Array_iterator<double,10000>,
+              _Fn2=double (__cdecl *)(double,double)
+          ]
+  Exercise3.4.5.vcxproj -> C:\Users\SAMSUNG\Desktop\Homework\Level 3\Section 3.4\Exercise 5\Exercise3.4.5\x64\Debug\Exercise3.4.5.exe
